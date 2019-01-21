@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:title="Delete all notes"
+		  app:showAsAction="never"
+		  android:id="@+id/main_action_delete_all_notes"/>
+
+	<item android:title="DEBUG"
+		  app:showAsAction="never">
+		<menu>
+			<item android:id="@+id/main_action_debug_add_notes"
+				  android:title="Add 10 notes"
+				  app:showAsAction="never"
+			/>
+		</menu>
+	</item>
+</menu>
